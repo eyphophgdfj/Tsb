@@ -1,0 +1,590 @@
+<!-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw --><roblox version="4"><Meta name="ExplicitAutoJoints">true</Meta><Item class="Model" referent="0"><Properties><CoordinateFrame name="ModelMeshCFrame"><X>0</X><Y>0</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>-0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><Vector3 name="ModelMeshSize"><X>0</X><Y>0</Y><Z>0</Z></Vector3><bool name="NeedsPivotMigration">false</bool><Ref name="PrimaryPart">1</Ref><float name="ScaleFactor">1</float><OptionalCoordinateFrame name="WorldPivotData"><CFrame><X>0</X><Y>5.010000228881836</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CFrame></OptionalCoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[ironyirey]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Humanoid" referent="2"><Properties><string name="DisplayName"><![CDATA[irey]]></string><float name="Health_XML">100</float><Vector3 name="InternalBodyScale"><X>1</X><Y>1</Y><Z>1</Z></Vector3><float name="InternalHeadScale">1</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties><Item class="Animator" referent="3"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="HumanoidDescription" referent="4"><Properties><float name="BodyTypeScale">0</float><string name="EmotesDataInternal"><![CDATA[Point2^3576823880^\Shrug^3576968026^\Tall Scary Creature^79216795769647^\tall creature walk^71303649590318^\]]></string><string name="EquippedEmotesDataInternal"><![CDATA[1^Tall Scary Creature\2^tall creature walk\3^Point2\4^Shrug\]]></string><int64 name="GraphicTShirt">1783808862</int64><int64 name="MoodAnimation">120108127213623</int64><float name="ProportionScale">0</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties><Item class="BodyPartDescription" referent="5"><Properties><int64 name="AssetId">138526270057654</int64><Color3 name="Color"><R>0.9921568632125854</R><G>0.9176470637321472</G><B>0.5529412031173706</B></Color3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="BodyPartDescription" referent="6"><Properties><token name="BodyPart">2</token><Color3 name="Color"><R>0.9921568632125854</R><G>0.9176470637321472</G><B>0.5529412031173706</B></Color3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="BodyPartDescription" referent="7"><Properties><token name="BodyPart">3</token><Color3 name="Color"><R>0.9921568632125854</R><G>0.9176470637321472</G><B>0.5529412031173706</B></Color3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="BodyPartDescription" referent="8"><Properties><token name="BodyPart">1</token><Color3 name="Color"><R>0.8352941274642944</R><G>0.45098039507865906</G><B>0.239215686917305</B></Color3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="BodyPartDescription" referent="9"><Properties><token name="BodyPart">4</token><Color3 name="Color"><R>0.38823530077934265</R><G>0.37254902720451355</G><B>0.3843137323856354</B></Color3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="BodyPartDescription" referent="10"><Properties><token name="BodyPart">5</token><Color3 name="Color"><R>0.38823530077934265</R><G>0.37254902720451355</G><B>0.3843137323856354</B></Color3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="AccessoryDescription" referent="11"><Properties><token name="AccessoryType">1</token><int64 name="AssetId">11453295585</int64><int name="Order">1</int><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="AccessoryDescription" referent="12"><Properties><token name="AccessoryType">1</token><int64 name="AssetId">16477149823</int64><int name="Order">1</int><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="AccessoryDescription" referent="13"><Properties><token name="AccessoryType">8</token><int64 name="AssetId">11987337178</int64><int name="Order">1</int><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item><Item class="Script" referent="14"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [FilteringEnabled] Server Scripts are IMPOSSIBLE to save]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Health]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="LocalScript" referent="15"><Properties><ProtectedString name="Source"><![CDATA[-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+local v_u_1 = script.Parent
+local v2 = v_u_1:WaitForChild("Torso")
+local v_u_3 = v2:WaitForChild("Right Shoulder")
+local v_u_4 = v2:WaitForChild("Left Shoulder")
+local v_u_5 = v2:WaitForChild("Right Hip")
+local v_u_6 = v2:WaitForChild("Left Hip")
+v2:WaitForChild("Neck")
+local v_u_7 = v_u_1:WaitForChild("Humanoid")
+local v_u_8 = "Standing"
+local v_u_9 = ""
+local v_u_10 = nil
+local v_u_11 = nil
+local v_u_12 = nil
+local v_u_13 = 1
+local v_u_14 = {}
+local v_u_15 = {
+	["idle"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=180435571",
+			["weight"] = 9
+		},
+		{
+			["id"] = "http://www.roblox.com/asset/?id=180435792",
+			["weight"] = 1
+		}
+	},
+	["walk"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=180426354",
+			["weight"] = 10
+		}
+	},
+	["run"] = {
+		{
+			["id"] = "run.xml",
+			["weight"] = 10
+		}
+	},
+	["jump"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=125750702",
+			["weight"] = 10
+		}
+	},
+	["fall"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=180436148",
+			["weight"] = 10
+		}
+	},
+	["climb"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=180436334",
+			["weight"] = 10
+		}
+	},
+	["sit"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=178130996",
+			["weight"] = 10
+		}
+	},
+	["toolnone"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182393478",
+			["weight"] = 10
+		}
+	},
+	["toolslash"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=129967390",
+			["weight"] = 10
+		}
+	},
+	["toollunge"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=129967478",
+			["weight"] = 10
+		}
+	},
+	["wave"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=128777973",
+			["weight"] = 10
+		}
+	},
+	["point"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=128853357",
+			["weight"] = 10
+		}
+	},
+	["dance1"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182435998",
+			["weight"] = 10
+		},
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182491037",
+			["weight"] = 10
+		},
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182491065",
+			["weight"] = 10
+		}
+	},
+	["dance2"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182436842",
+			["weight"] = 10
+		},
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182491248",
+			["weight"] = 10
+		},
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182491277",
+			["weight"] = 10
+		}
+	},
+	["dance3"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182436935",
+			["weight"] = 10
+		},
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182491368",
+			["weight"] = 10
+		},
+		{
+			["id"] = "http://www.roblox.com/asset/?id=182491423",
+			["weight"] = 10
+		}
+	},
+	["laugh"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=129423131",
+			["weight"] = 10
+		}
+	},
+	["cheer"] = {
+		{
+			["id"] = "http://www.roblox.com/asset/?id=129423030",
+			["weight"] = 10
+		}
+	}
+}
+local v_u_16 = { "dance1", "dance2", "dance3" }
+local v_u_17 = {
+	["wave"] = false,
+	["point"] = false,
+	["dance1"] = true,
+	["dance2"] = true,
+	["dance3"] = true,
+	["laugh"] = false,
+	["cheer"] = false
+}
+function configureAnimationSet(p_u_18, p_u_19)
+	-- upvalues: (copy) v_u_14
+	if v_u_14[p_u_18] ~= nil then
+		for _, v20 in pairs(v_u_14[p_u_18].connections) do
+			v20:disconnect()
+		end
+	end
+	v_u_14[p_u_18] = {}
+	v_u_14[p_u_18].count = 0
+	v_u_14[p_u_18].totalWeight = 0
+	v_u_14[p_u_18].connections = {}
+	local v21 = script:FindFirstChild(p_u_18)
+	if v21 ~= nil then
+		local v22 = v_u_14[p_u_18].connections
+		local v23 = v21.ChildAdded
+		table.insert(v22, v23:connect(function(_)
+			-- upvalues: (copy) p_u_18, (copy) p_u_19
+			configureAnimationSet(p_u_18, p_u_19)
+		end))
+		local v24 = v_u_14[p_u_18].connections
+		local v25 = v21.ChildRemoved
+		table.insert(v24, v25:connect(function(_)
+			-- upvalues: (copy) p_u_18, (copy) p_u_19
+			configureAnimationSet(p_u_18, p_u_19)
+		end))
+		local v26 = 1
+		for _, v27 in pairs(v21:GetChildren()) do
+			if v27:IsA("Animation") then
+				local v28 = v_u_14[p_u_18].connections
+				local v29 = v27.Changed
+				table.insert(v28, v29:connect(function(_)
+					-- upvalues: (copy) p_u_18, (copy) p_u_19
+					configureAnimationSet(p_u_18, p_u_19)
+				end))
+				v_u_14[p_u_18][v26] = {}
+				v_u_14[p_u_18][v26].anim = v27
+				local v30 = v27:FindFirstChild("Weight")
+				if v30 == nil then
+					v_u_14[p_u_18][v26].weight = 1
+				else
+					v_u_14[p_u_18][v26].weight = v30.Value
+				end
+				v_u_14[p_u_18].count = v_u_14[p_u_18].count + 1
+				v_u_14[p_u_18].totalWeight = v_u_14[p_u_18].totalWeight + v_u_14[p_u_18][v26].weight
+				v26 = v26 + 1
+			end
+		end
+	end
+	if v_u_14[p_u_18].count <= 0 then
+		for v31, v32 in pairs(p_u_19) do
+			v_u_14[p_u_18][v31] = {}
+			v_u_14[p_u_18][v31].anim = Instance.new("Animation")
+			v_u_14[p_u_18][v31].anim.Name = p_u_18
+			v_u_14[p_u_18][v31].anim.AnimationId = v32.id
+			v_u_14[p_u_18][v31].weight = v32.weight
+			v_u_14[p_u_18].count = v_u_14[p_u_18].count + 1
+			v_u_14[p_u_18].totalWeight = v_u_14[p_u_18].totalWeight + v32.weight
+		end
+	end
+end
+function scriptChildModified(p33)
+	-- upvalues: (copy) v_u_15
+	local v34 = v_u_15[p33.Name]
+	if v34 ~= nil then
+		configureAnimationSet(p33.Name, v34)
+	end
+end
+script.ChildAdded:connect(scriptChildModified)
+script.ChildRemoved:connect(scriptChildModified)
+local v35
+if v_u_7 then
+	v35 = v_u_7:FindFirstChildOfClass("Animator")
+else
+	v35 = nil
+end
+if v35 then
+	local v36 = v35:GetPlayingAnimationTracks()
+	for _, v37 in ipairs(v36) do
+		v37:Stop(0)
+		v37:Destroy()
+	end
+end
+for v38, v39 in pairs(v_u_15) do
+	configureAnimationSet(v38, v39)
+end
+local v_u_40 = "None"
+local v_u_41 = 0
+local v_u_42 = 0
+function stopAllAnimations()
+	-- upvalues: (ref) v_u_9, (copy) v_u_17, (ref) v_u_10, (ref) v_u_12, (ref) v_u_11
+	local v43 = v_u_9
+	local v44 = v_u_17[v43] ~= nil and v_u_17[v43] == false and "idle" or v43
+	v_u_9 = ""
+	v_u_10 = nil
+	if v_u_12 ~= nil then
+		v_u_12:disconnect()
+	end
+	if v_u_11 ~= nil then
+		v_u_11:Stop()
+		v_u_11:Destroy()
+		v_u_11 = nil
+	end
+	return v44
+end
+function setAnimationSpeed(p45)
+	-- upvalues: (ref) v_u_13, (ref) v_u_11
+	if p45 ~= v_u_13 then
+		v_u_13 = p45
+		v_u_11:AdjustSpeed(v_u_13)
+	end
+end
+function keyFrameReachedFunc(p46)
+	-- upvalues: (ref) v_u_9, (copy) v_u_17, (ref) v_u_13, (copy) v_u_7
+	if p46 == "End" then
+		local v47 = v_u_9
+		local v48 = v_u_17[v47] ~= nil and v_u_17[v47] == false and "idle" or v47
+		local v49 = v_u_13
+		playAnimation(v48, 0, v_u_7)
+		setAnimationSpeed(v49)
+	end
+end
+function playAnimation(p50, p51, p52)
+	-- upvalues: (copy) v_u_14, (ref) v_u_10, (ref) v_u_11, (ref) v_u_13, (ref) v_u_9, (ref) v_u_12
+	local v53 = math.random(1, v_u_14[p50].totalWeight)
+	local v54 = 1
+	while v_u_14[p50][v54].weight < v53 do
+		v53 = v53 - v_u_14[p50][v54].weight
+		v54 = v54 + 1
+	end
+	local v55 = v_u_14[p50][v54].anim
+	if v55 ~= v_u_10 then
+		if v_u_11 ~= nil then
+			v_u_11:Stop(p51)
+			v_u_11:Destroy()
+		end
+		v_u_13 = 1
+		v_u_11 = p52:LoadAnimation(v55)
+		v_u_11.Priority = Enum.AnimationPriority.Core
+		v_u_11:Play(p51)
+		v_u_9 = p50
+		v_u_10 = v55
+		if v_u_12 ~= nil then
+			v_u_12:disconnect()
+		end
+		v_u_12 = v_u_11.KeyframeReached:connect(keyFrameReachedFunc)
+	end
+end
+local v_u_56 = ""
+local v_u_57 = nil
+local v_u_58 = nil
+local v_u_59 = nil
+function toolKeyFrameReachedFunc(p60)
+	-- upvalues: (ref) v_u_56, (copy) v_u_7
+	if p60 == "End" then
+		playToolAnimation(v_u_56, 0, v_u_7)
+	end
+end
+function playToolAnimation(p61, p62, p63, p64)
+	-- upvalues: (copy) v_u_14, (ref) v_u_58, (ref) v_u_57, (ref) v_u_56, (ref) v_u_59
+	local v65 = math.random(1, v_u_14[p61].totalWeight)
+	local v66 = 1
+	while v_u_14[p61][v66].weight < v65 do
+		v65 = v65 - v_u_14[p61][v66].weight
+		v66 = v66 + 1
+	end
+	local v67 = v_u_14[p61][v66].anim
+	if v_u_58 ~= v67 then
+		if v_u_57 ~= nil then
+			v_u_57:Stop()
+			v_u_57:Destroy()
+			p62 = 0
+		end
+		v_u_57 = p63:LoadAnimation(v67)
+		if p64 then
+			v_u_57.Priority = p64
+		end
+		v_u_57:Play(p62)
+		v_u_56 = p61
+		v_u_58 = v67
+		v_u_59 = v_u_57.KeyframeReached:connect(toolKeyFrameReachedFunc)
+	end
+end
+function stopToolAnimations()
+	-- upvalues: (ref) v_u_56, (ref) v_u_59, (ref) v_u_58, (ref) v_u_57
+	local v68 = v_u_56
+	if v_u_59 ~= nil then
+		v_u_59:disconnect()
+	end
+	v_u_56 = ""
+	v_u_58 = nil
+	if v_u_57 ~= nil then
+		v_u_57:Stop()
+		v_u_57:Destroy()
+		v_u_57 = nil
+	end
+	return v68
+end
+function onRunning(p69)
+	-- upvalues: (copy) v_u_1, (copy) v_u_7, (ref) v_u_10, (ref) v_u_8, (copy) v_u_17, (ref) v_u_9
+	local v70 = p69 / v_u_1:GetScale()
+	if v70 > 0.01 then
+		playAnimation("walk", 0.1, v_u_7)
+		if v_u_10 and v_u_10.AnimationId == "http://www.roblox.com/asset/?id=180426354" then
+			setAnimationSpeed(v70 / 14.5)
+		end
+		v_u_8 = "Running"
+	elseif v_u_17[v_u_9] == nil then
+		playAnimation("idle", 0.1, v_u_7)
+		v_u_8 = "Standing"
+	end
+end
+function onDied()
+	-- upvalues: (ref) v_u_8
+	v_u_8 = "Dead"
+end
+function onJumping()
+	-- upvalues: (copy) v_u_7, (ref) v_u_42, (ref) v_u_8
+	playAnimation("jump", 0.1, v_u_7)
+	v_u_42 = 0.3
+	v_u_8 = "Jumping"
+end
+function onClimbing(p71)
+	-- upvalues: (copy) v_u_1, (copy) v_u_7, (ref) v_u_8
+	local v72 = p71 / v_u_1:GetScale()
+	playAnimation("climb", 0.1, v_u_7)
+	setAnimationSpeed(v72 / 12)
+	v_u_8 = "Climbing"
+end
+function onGettingUp()
+	-- upvalues: (ref) v_u_8
+	v_u_8 = "GettingUp"
+end
+function onFreeFall()
+	-- upvalues: (ref) v_u_42, (copy) v_u_7, (ref) v_u_8
+	if v_u_42 <= 0 then
+		playAnimation("fall", 0.3, v_u_7)
+	end
+	v_u_8 = "FreeFall"
+end
+function onFallingDown()
+	-- upvalues: (ref) v_u_8
+	v_u_8 = "FallingDown"
+end
+function onSeated()
+	-- upvalues: (ref) v_u_8
+	v_u_8 = "Seated"
+end
+function onPlatformStanding()
+	-- upvalues: (ref) v_u_8
+	v_u_8 = "PlatformStanding"
+end
+function onSwimming(p73)
+	-- upvalues: (ref) v_u_8
+	if p73 > 0 then
+		v_u_8 = "Running"
+	else
+		v_u_8 = "Standing"
+	end
+end
+function getTool()
+	-- upvalues: (copy) v_u_1
+	for _, v74 in ipairs(v_u_1:GetChildren()) do
+		if v74.className == "Tool" then
+			return v74
+		end
+	end
+	return nil
+end
+function getToolAnim(p75)
+	for _, v76 in ipairs(p75:GetChildren()) do
+		if v76.Name == "toolanim" and v76.className == "StringValue" then
+			return v76
+		end
+	end
+	return nil
+end
+function animateTool()
+	-- upvalues: (ref) v_u_40, (copy) v_u_7
+	if v_u_40 == "None" then
+		playToolAnimation("toolnone", 0.1, v_u_7, Enum.AnimationPriority.Idle)
+		return
+	elseif v_u_40 == "Slash" then
+		playToolAnimation("toolslash", 0, v_u_7, Enum.AnimationPriority.Action)
+		return
+	elseif v_u_40 == "Lunge" then
+		playToolAnimation("toollunge", 0, v_u_7, Enum.AnimationPriority.Action)
+	end
+end
+function moveSit()
+	-- upvalues: (copy) v_u_3, (copy) v_u_4, (copy) v_u_5, (copy) v_u_6
+	v_u_3.MaxVelocity = 0.15
+	v_u_4.MaxVelocity = 0.15
+	v_u_3:SetDesiredAngle(1.57)
+	v_u_4:SetDesiredAngle(-1.57)
+	v_u_5:SetDesiredAngle(1.57)
+	v_u_6:SetDesiredAngle(-1.57)
+end
+local v_u_77 = 0
+function move(p78)
+	-- upvalues: (ref) v_u_77, (ref) v_u_42, (ref) v_u_8, (copy) v_u_7, (copy) v_u_3, (copy) v_u_4, (copy) v_u_5, (copy) v_u_6, (ref) v_u_40, (ref) v_u_41, (ref) v_u_58
+	local v79 = 1
+	local v80 = 1
+	local v81 = p78 - v_u_77
+	v_u_77 = p78
+	local v82 = false
+	if v_u_42 > 0 then
+		v_u_42 = v_u_42 - v81
+	end
+	if v_u_8 == "FreeFall" and v_u_42 <= 0 then
+		playAnimation("fall", 0.3, v_u_7)
+	else
+		if v_u_8 == "Seated" then
+			playAnimation("sit", 0.5, v_u_7)
+			return
+		end
+		if v_u_8 == "Running" then
+			playAnimation("walk", 0.1, v_u_7)
+		elseif v_u_8 == "Dead" or (v_u_8 == "GettingUp" or (v_u_8 == "FallingDown" or (v_u_8 == "Seated" or v_u_8 == "PlatformStanding"))) then
+			stopAllAnimations()
+			v82 = true
+			v80 = 1
+			v79 = 0.1
+		end
+	end
+	if v82 then
+		local v83 = p78 * v80
+		local v84 = v79 * math.sin(v83)
+		v_u_3:SetDesiredAngle(v84 + 0)
+		v_u_4:SetDesiredAngle(v84 - 0)
+		v_u_5:SetDesiredAngle(-v84)
+		v_u_6:SetDesiredAngle(-v84)
+	end
+	local v85 = getTool()
+	if v85 and v85:FindFirstChild("Handle") then
+		local v86 = getToolAnim(v85)
+		if v86 then
+			v_u_40 = v86.Value
+			v86.Parent = nil
+			v_u_41 = p78 + 0.3
+		end
+		if v_u_41 < p78 then
+			v_u_41 = 0
+			v_u_40 = "None"
+		end
+		animateTool()
+	else
+		stopToolAnimations()
+		v_u_40 = "None"
+		v_u_58 = nil
+		v_u_41 = 0
+	end
+end
+v_u_7.Died:connect(onDied)
+v_u_7.Running:connect(onRunning)
+v_u_7.Jumping:connect(onJumping)
+v_u_7.Climbing:connect(onClimbing)
+v_u_7.GettingUp:connect(onGettingUp)
+v_u_7.FreeFalling:connect(onFreeFall)
+v_u_7.FallingDown:connect(onFallingDown)
+v_u_7.Seated:connect(onSeated)
+v_u_7.PlatformStanding:connect(onPlatformStanding)
+v_u_7.Swimming:connect(onSwimming)
+game:GetService("Players").LocalPlayer.Chatted:connect(function(p87)
+	-- upvalues: (copy) v_u_16, (ref) v_u_8, (copy) v_u_17, (copy) v_u_7
+	local v88 = ""
+	if p87 == "/e dance" then
+		v88 = v_u_16[math.random(1, #v_u_16)]
+	elseif string.sub(p87, 1, 3) == "/e " then
+		v88 = string.sub(p87, 4)
+	elseif string.sub(p87, 1, 7) == "/emote " then
+		v88 = string.sub(p87, 8)
+	end
+	if v_u_8 == "Standing" and v_u_17[v88] ~= nil then
+		playAnimation(v88, 0.1, v_u_7)
+	end
+end)
+script:WaitForChild("PlayEmote").OnInvoke = function(p89)
+	-- upvalues: (ref) v_u_8, (copy) v_u_17, (copy) v_u_7, (ref) v_u_11
+	if v_u_8 == "Standing" then
+		if v_u_17[p89] == nil then
+			return false
+		end
+		playAnimation(p89, 0.1, v_u_7)
+		return true, v_u_11
+	end
+end
+playAnimation("idle", 0.1, v_u_7)
+local _ = "Standing"
+while v_u_1.Parent ~= nil do
+	local _, v90 = wait(0.1)
+	move(v90)
+end]]></ProtectedString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Animate]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="StringValue" referent="16"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[idle]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Animation" referent="17"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=180435571]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Animation1]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="NumberValue" referent="18"><Properties><double name="Value">9</double><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Weight]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Animation" referent="19"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=180435792]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Animation2]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="NumberValue" referent="20"><Properties><double name="Value">1</double><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Weight]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item><Item class="StringValue" referent="21"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[walk]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Animation" referent="22"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=180426354]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[WalkAnim]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="StringValue" referent="23"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[run]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Animation" referent="24"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=180426354]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RunAnim]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="StringValue" referent="25"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[jump]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Animation" referent="26"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=125750702]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[JumpAnim]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="StringValue" referent="27"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[climb]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Animation" referent="28"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=180436334]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[ClimbAnim]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="StringValue" referent="29"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[toolnone]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Animation" referent="30"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=182393478]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[ToolNoneAnim]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="StringValue" referent="31"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[fall]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Animation" referent="32"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=180436148]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FallAnim]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="StringValue" referent="33"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[sit]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Animation" referent="34"><Properties><Content name="AnimationId"><url><![CDATA[http://www.roblox.com/asset/?id=178130996]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SitAnim]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="BindableFunction" referent="35"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[PlayEmote]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="NumberValue" referent="36"><Properties><double name="Value">1</double><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[ScaleDampeningPercent]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Folder" referent="37"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RELICSxyz Boombox]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="AudioPlayer" referent="38"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties><Item class="Wire" referent="39"><Properties><Ref name="SourceInstance">38</Ref><Ref name="TargetInstance">40</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Wire" referent="41"><Properties><Ref name="SourceInstance">38</Ref><Ref name="TargetInstance">42</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Wire" referent="43"><Properties><Ref name="SourceInstance">38</Ref><Ref name="TargetInstance">44</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Wire" referent="45"><Properties><Ref name="SourceInstance">38</Ref><Ref name="TargetInstance">46</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="AudioFader" referent="40"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties><Item class="Wire" referent="47"><Properties><Ref name="SourceInstance">40</Ref><Ref name="TargetInstance">48</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="AudioAnalyzer" referent="49"><Properties><bool name="SpectrumEnabled">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Bass]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="AudioEqualizer" referent="42"><Properties><float name="HighGain">-80</float><float name="LowGain">10</float><float name="MidGain">-80</float><NumberRange name="MidRange">320.7799987792969 1287.02001953125</NumberRange><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FilterBass]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Wire" referent="50"><Properties><Ref name="SourceInstance">42</Ref><Ref name="TargetInstance">49</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item><Item class="AudioAnalyzer" referent="51"><Properties><bool name="SpectrumEnabled">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Treble]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="AudioEqualizer" referent="44"><Properties><float name="HighGain">-80</float><float name="LowGain">-80</float><float name="MidGain">10</float><NumberRange name="MidRange">1000 4000</NumberRange><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FilterTreble]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Wire" referent="52"><Properties><Ref name="SourceInstance">44</Ref><Ref name="TargetInstance">51</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item><Item class="AudioAnalyzer" referent="53"><Properties><bool name="SpectrumEnabled">false</bool><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Percussion]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="AudioEqualizer" referent="46"><Properties><float name="HighGain">-80</float><float name="LowGain">-80</float><float name="MidGain">5</float><NumberRange name="MidRange">6000 20000</NumberRange><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FilterPercussion]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Wire" referent="54"><Properties><Ref name="SourceInstance">46</Ref><Ref name="TargetInstance">53</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item></Item><Item class="BodyColors" referent="55"><Properties><Color3 name="HeadColor3"><R>0.9921568632125854</R><G>0.9176470637321472</G><B>0.5529412031173706</B></Color3><Color3 name="LeftArmColor3"><R>0.9921568632125854</R><G>0.9176470637321472</G><B>0.5529412031173706</B></Color3><Color3 name="LeftLegColor3"><R>0.38823530077934265</R><G>0.37254902720451355</G><B>0.3843137323856354</B></Color3><Color3 name="RightArmColor3"><R>0.9921568632125854</R><G>0.9176470637321472</G><B>0.5529412031173706</B></Color3><Color3 name="RightLegColor3"><R>0.38823530077934265</R><G>0.37254902720451355</G><B>0.3843137323856354</B></Color3><Color3 name="TorsoColor3"><R>0.8352941274642944</R><G>0.45098039507865906</G><B>0.239215686917305</B></Color3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Part" referent="56"><Properties><token name="shape">1</token><token name="formFactorRaw">0</token><bool name="AudioCanCollide">false</bool><token name="BottomSurface">0</token><CoordinateFrame name="CFrame"><X>13.756268501281738</X><Y>0.9988381862640381</Y><Z>4.527710914611816</Z><R00>-0.5191203355789185</R00><R01>0</R01><R02>-0.8547011613845825</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.8547011613845825</R20><R21>0</R21><R22>-0.5191203355789185</R22></CoordinateFrame><bool name="CanCollide">false</bool><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4284702562</Color3uint8><PhysicalProperties name="CustomPhysicalProperties"><CustomPhysics>true</CustomPhysics><Density>0</Density><Friction>0</Friction><Elasticity>0</Elasticity><FrictionWeight>0</FrictionWeight><ElasticityWeight>0</ElasticityWeight><AcousticAbsorption>0</AcousticAbsorption></PhysicalProperties><bool name="Locked">true</bool><string name="MaterialVariantSerialized"></string><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>1</X><Y>2</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Left Leg]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Attachment" referent="57"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[LeftFootAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Part" referent="58"><Properties><token name="shape">1</token><token name="formFactorRaw">0</token><bool name="AudioCanCollide">false</bool><CoordinateFrame name="CFrame"><X>14.273210525512695</X><Y>3.002474784851074</Y><Z>3.668501377105713</Z><R00>-0.5154306888580322</R00><R01>0.0006651243893429637</R01><R02>-0.8569310307502747</R02><R10>-0.005488486494868994</R10><R11>0.999976634979248</R11><R12>0.004077406134456396</R12><R20>0.856913685798645</R20><R21>0.006804875563830137</R21><R22>-0.5154150128364563</R22></CoordinateFrame><bool name="CanCollide">false</bool><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4294830733</Color3uint8><bool name="Locked">true</bool><string name="MaterialVariantSerialized"></string><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>1</X><Y>2</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Left Arm]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Attachment" referent="59"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[LeftShoulderAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="60"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[LeftGripAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Part" referent="1"><Properties><token name="shape">1</token><token name="formFactorRaw">0</token><bool name="AudioCanCollide">false</bool><CoordinateFrame name="CFrame"><X>13.493680000305176</X><Y>4.4842352867126465</Y><Z>4.953222751617432</Z><R00>-0.5205183625221252</R00><R01>-0.006054905243217945</R01><R02>-0.8538290858268738</R02><R10>-0.000011802751032519154</R10><R11>0.9999749064445496</R11><R12>-0.007084091659635305</R12><R20>0.8538505434989929</R20><R21>-0.0036773120518773794</R21><R22>-0.5205053091049194</R22></CoordinateFrame><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4294830733</Color3uint8><bool name="Locked">true</bool><string name="MaterialVariantSerialized"></string><token name="TopSurface">0</token><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>2</X><Y>1</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Head]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Decal" referent="61"><Properties><Content name="Texture"><url><![CDATA[rbxasset://textures/face.png]]></url></Content><string name="TexturePackMetadata"></string><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[face]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="62"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>0.6000000238418579</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[HairAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="63"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>0.6000000238418579</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[HatAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="64"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>-0.6000000238418579</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FaceFrontAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="65"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FaceCenterAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="AudioEmitter" referent="48"><Properties><BinaryString name="AngleAttenuation">AA==</BinaryString><string name="AudioInteractionGroup"><![CDATA[RELICSxyz]]></string><BinaryString name="DistanceAttenuation">AAAAQEEAAIA/AACAQV2zRT8AAKBBfewSPwAAwEG+Vs8+AADgQQjghz4AAABCq+kePgAAEEKhVJg9AAAgQvwPvDwAADBCTbhwOg==</BinaryString><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="SpecialMesh" referent="66"><Properties><token name="MeshType">5</token><Content name="MeshId"><url><![CDATA[rbxassetid://110741070893926]]></url></Content><Content name="TextureId"><url><![CDATA[rbxassetid://79063214409459]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags">Tm9GYWNl</BinaryString></Properties><Item class="Vector3Value" referent="67"><Properties><Vector3 name="Value"><X>3.089527793517235e-16</X><Y>-0.014311075210571289</Y><Z>-0.5943873524665833</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FaceFrontAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Vector3Value" referent="68"><Properties><Vector3 name="Value"><X>3.8502382896278694e-16</X><Y>0.606856107711792</Y><Z>0.00027251243591308594</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[HatAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Vector3Value" referent="69"><Properties><Vector3 name="Value"><X>3.8502382896278694e-16</X><Y>0.606856107711792</Y><Z>0.00027251243591308594</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[HairAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Vector3Value" referent="70"><Properties><Vector3 name="Value"><X>2.992158973950189e-16</X><Y>-0.09381890296936035</Y><Z>0.00027251243591308594</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FaceCenterAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Vector3Value" referent="71"><Properties><Vector3 name="Value"><X>2.3896427333489317e-16</X><Y>-0.5858105421066284</Y><Z>0.00027251243591308594</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[NeckRigAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item><Item class="Part" referent="72"><Properties><token name="shape">1</token><token name="formFactorRaw">0</token><bool name="AudioCanCollide">false</bool><CoordinateFrame name="CFrame"><X>12.709473609924316</X><Y>2.9971871376037598</Y><Z>6.237478733062744</Z><R00>-0.5271273851394653</R00><R01>0.009100019000470638</R01><R02>-0.8497375249862671</R02><R10>0.009641320444643497</R10><R11>0.9999423623085022</R11><R12>0.004727679304778576</R12><R20>0.8497315645217896</R20><R21>-0.00570049649104476</R21><R22>-0.5271847248077393</R22></CoordinateFrame><bool name="CanCollide">false</bool><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4294830733</Color3uint8><bool name="Locked">true</bool><string name="MaterialVariantSerialized"></string><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>1</X><Y>2</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Right Arm]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Attachment" referent="73"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RightShoulderAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="74"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RightGripAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Part" referent="75"><Properties><token name="shape">1</token><token name="formFactorRaw">0</token><bool name="AudioCanCollide">false</bool><CoordinateFrame name="CFrame"><X>13.496707916259766</X><Y>2.9842474460601807</Y><Z>4.955061435699463</Z><R00>-0.5191203355789185</R00><R01>0</R01><R02>-0.8547011613845825</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.8547011613845825</R20><R21>0</R21><R22>-0.5191203355789185</R22></CoordinateFrame><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4292178749</Color3uint8><float name="LeftParamA">0</float><float name="LeftParamB">0</float><token name="LeftSurface">2</token><bool name="Locked">true</bool><string name="MaterialVariantSerialized"></string><float name="RightParamA">0</float><float name="RightParamB">0</float><token name="RightSurface">2</token><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>2</X><Y>2</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Torso]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Decal" referent="76"><Properties><Content name="Texture"><url><![CDATA[http://www.roblox.com/asset/?id=1783808848]]></url></Content><string name="TexturePackMetadata"></string><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[roblox]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="77"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[NeckAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="78"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>-0.5</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[BodyFrontAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="79"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>0</Y><Z>0.5</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[BodyBackAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="80"><Properties><CoordinateFrame name="CFrame"><X>-1</X><Y>1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[LeftCollarAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="81"><Properties><CoordinateFrame name="CFrame"><X>1</X><Y>1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RightCollarAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="82"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>-0.5</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[WaistFrontAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="83"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[WaistCenterAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="84"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>0.5</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[WaistBackAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Motor6D" referent="85"><Properties><float name="MaxVelocity">0.10000000149011612</float><CoordinateFrame name="C0"><X>1</X><Y>0.5</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>-0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><CoordinateFrame name="C1"><X>-0.5</X><Y>0.5</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>-0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><Ref name="Part0">75</Ref><Ref name="Part1">72</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Right Shoulder]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Motor6D" referent="86"><Properties><float name="MaxVelocity">0.10000000149011612</float><CoordinateFrame name="C0"><X>-1</X><Y>0.5</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><CoordinateFrame name="C1"><X>0.5</X><Y>0.5</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><Ref name="Part0">75</Ref><Ref name="Part1">58</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Left Shoulder]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Motor6D" referent="87"><Properties><float name="MaxVelocity">0.10000000149011612</float><CoordinateFrame name="C0"><X>1</X><Y>-1</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>-0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><CoordinateFrame name="C1"><X>0.5</X><Y>1</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>-0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><Ref name="Part0">75</Ref><Ref name="Part1">88</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Right Hip]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Motor6D" referent="89"><Properties><float name="MaxVelocity">0.10000000149011612</float><CoordinateFrame name="C0"><X>-1</X><Y>-1</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><CoordinateFrame name="C1"><X>-0.5</X><Y>1</Y><Z>0</Z><R00>0</R00><R01>0</R01><R02>-1</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><Ref name="Part0">75</Ref><Ref name="Part1">56</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Left Hip]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Motor6D" referent="90"><Properties><float name="MaxVelocity">0.10000000149011612</float><CoordinateFrame name="C0"><X>0</X><Y>1</Y><Z>0</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>1</R12><R20>0</R20><R21>1</R21><R22>-0</R22></CoordinateFrame><CoordinateFrame name="C1"><X>0</X><Y>-0.5</Y><Z>0</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>1</R12><R20>0</R20><R21>1</R21><R22>-0</R22></CoordinateFrame><Ref name="Part0">75</Ref><Ref name="Part1">1</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Neck]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Part" referent="91"><Properties><token name="shape">1</token><token name="formFactorRaw">0</token><bool name="AudioCanCollide">false</bool><token name="BottomSurface">0</token><CoordinateFrame name="CFrame"><X>13.496707916259766</X><Y>2.999999761581421</Y><Z>4.955061435699463</Z><R00>-0.5191203355789185</R00><R01>0</R01><R02>-0.8547011613845825</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.8547011613845825</R20><R21>0</R21><R22>-0.5191203355789185</R22></CoordinateFrame><bool name="CanCollide">false</bool><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4288914085</Color3uint8><float name="LeftParamA">0</float><float name="LeftParamB">0</float><bool name="Locked">true</bool><string name="MaterialVariantSerialized"></string><float name="RightParamA">0</float><float name="RightParamB">0</float><token name="TopSurface">0</token><float name="Transparency">1</float><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>2</X><Y>2</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[HumanoidRootPart]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Sound" referent="92"><Properties><bool name="Looped">true</bool><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/action_footsteps_plastic.mp3]]></url></Content><float name="Volume">0.6499999761581421</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Climbing]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Sound" referent="93"><Properties><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/uuhhh.mp3]]></url></Content><float name="Volume">0.6499999761581421</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Died]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Sound" referent="94"><Properties><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/action_get_up.mp3]]></url></Content><float name="Volume">0.6499999761581421</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[GettingUp]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Sound" referent="95"><Properties><bool name="Looped">true</bool><float name="PlaybackSpeed">1.600000023841858</float><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/action_swim.mp3]]></url></Content><float name="Volume">0.6499999761581421</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Swimming]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Sound" referent="96"><Properties><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/action_jump.mp3]]></url></Content><float name="Volume">0.6499999761581421</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Jumping]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Sound" referent="97"><Properties><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/action_jump_land.mp3]]></url></Content><float name="Volume">0.6499999761581421</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Landing]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Sound" referent="98"><Properties><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/impact_water.mp3]]></url></Content><float name="Volume">0.6499999761581421</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Splash]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Sound" referent="99"><Properties><NumberRange name="LoopRegion">2 9</NumberRange><bool name="Looped">true</bool><bool name="PlaybackRegionsEnabled">true</bool><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/action_falling.ogg]]></url></Content><double name="TimePosition">0.512</double><float name="Volume">0</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[FreeFalling]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Sound" referent="100"><Properties><bool name="Looped">true</bool><float name="PlaybackSpeed">1.850000023841858</float><float name="RollOffMaxDistance">150</float><float name="RollOffMinDistance">5</float><Content name="SoundId"><url><![CDATA[rbxasset://sounds/action_footsteps_plastic.mp3]]></url></Content><double name="TimePosition">0.931</double><float name="Volume">0.6499999761581421</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Running]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="101"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RootAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Motor6D" referent="102"><Properties><float name="MaxVelocity">0.10000000149011612</float><CoordinateFrame name="C0"><X>0</X><Y>0</Y><Z>0</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>1</R12><R20>0</R20><R21>1</R21><R22>-0</R22></CoordinateFrame><CoordinateFrame name="C1"><X>0</X><Y>0</Y><Z>0</Z><R00>-1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>0</R11><R12>1</R12><R20>0</R20><R21>1</R21><R22>-0</R22></CoordinateFrame><Ref name="Part0">91</Ref><Ref name="Part1">75</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RootJoint]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="PointLight" referent="103"><Properties><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Part" referent="88"><Properties><token name="shape">1</token><token name="formFactorRaw">0</token><bool name="AudioCanCollide">false</bool><token name="BottomSurface">0</token><CoordinateFrame name="CFrame"><X>13.237147331237793</X><Y>0.9960107803344727</Y><Z>5.382411956787109</Z><R00>-0.5191203355789185</R00><R01>0</R01><R02>-0.8547011613845825</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.8547011613845825</R20><R21>0</R21><R22>-0.5191203355789185</R22></CoordinateFrame><bool name="CanCollide">false</bool><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4284702562</Color3uint8><bool name="Locked">true</bool><string name="MaterialVariantSerialized"></string><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>1</X><Y>2</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Right Leg]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Attachment" referent="104"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>-1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[RightFootAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="BillboardGui" referent="105"><Properties><bool name="Active">true</bool><bool name="ClipsDescendants">true</bool><Vector3 name="ExtentsOffsetWorldSpace"><X>0</X><Y>1.100000023841858</Y><Z>0</Z></Vector3><float name="MaxDistance">40</float><UDim2 name="Size"><XS>7</XS><XO>0</XO><YS>0.8999999761581421</YS><YO>0</YO></UDim2><bool name="Enabled">false</bool><token name="ZIndexBehavior">1</token><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[OverheadStatus]]></string><BinaryString name="Tags">T3ZlcmhlYWRUZXh0QmlsbGJvYXJkR1VJ</BinaryString></Properties><Item class="TextLabel" referent="106"><Properties><Font name="FontFace"><Family><url><![CDATA[rbxasset://fonts/families/GothamSSm.json]]></url></Family><Weight>500</Weight><Style>Normal</Style></Font><string name="LocalizationMatchIdentifier"><![CDATA[564c07fd-2c81-4491-aa13-637c3a427f47]]></string><string name="LocalizationMatchedSourceText"><![CDATA[[Viewing Catalog]]]></string><string name="Text"></string><Color3 name="TextColor3"><R>1</R><G>1</G><B>1</B></Color3><bool name="TextScaled">true</bool><float name="TextSize">14</float><float name="TextStrokeTransparency">0.800000011920929</float><bool name="TextWrapped">true</bool><Vector2 name="AnchorPoint"><X>0.5</X><Y>0.5</Y></Vector2><Color3 name="BackgroundColor3"><R>1</R><G>1</G><B>1</B></Color3><float name="BackgroundTransparency">1</float><Color3 name="BorderColor3"><R>0.10588236153125763</R><G>0.16470588743686676</G><B>0.20784315466880798</B></Color3><int name="BorderSizePixel">0</int><UDim2 name="Position"><XS>0.5</XS><XO>0</XO><YS>0.5</YS><YO>0</YO></UDim2><UDim2 name="Size"><XS>1</XS><XO>0</XO><YS>1</YS><YO>0</YO></UDim2><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="ShirtGraphic" referent="107"><Properties><Content name="Graphic"><url><![CDATA[http://www.roblox.com/asset/?id=1783808848]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Accessory" referent="108"><Properties><token name="AccessoryType">1</token><CoordinateFrame name="AttachmentPoint"><X>-1.6609318053578222e-23</X><Y>-0.32282257080078125</Y><Z>-7.105427357601002e-15</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[MM2Crown]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Part" referent="109"><Properties><token name="shape">1</token><token name="formFactorRaw">1</token><token name="BottomSurface">0</token><CoordinateFrame name="CFrame"><X>13.488092422485352</X><Y>5.407034873962402</Y><Z>4.9498291015625</Z><R00>-0.5205183625221252</R00><R01>-0.006054905243217945</R01><R02>-0.8538290858268738</R02><R10>-0.000011802751032519154</R10><R11>0.9999749064445496</R11><R12>-0.007084091659635305</R12><R20>0.8538505434989929</R20><R21>-0.0036773120518773794</R21><R22>-0.5205053091049194</R22></CoordinateFrame><bool name="CanCollide">false</bool><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4288914085</Color3uint8><string name="MaterialVariantSerialized"></string><token name="TopSurface">0</token><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>1</X><Y>1</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize">AQAAABIAAABSQlhSZWZpbmVtZW50U2NhbGURAACAPwAAgD8AAIA/</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Handle]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="SpecialMesh" referent="110"><Properties><token name="MeshType">5</token><Content name="MeshId"><url><![CDATA[rbxassetid://11452463471]]></url></Content><Content name="TextureId"><url><![CDATA[http://www.roblox.com/asset/?id=11452443542]]></url></Content><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SpecialMesh]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="StringValue" referent="111"><Properties><string name="Value"><![CDATA[Classic]]></string><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[AvatarPartScaleType]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="112"><Properties><CoordinateFrame name="CFrame"><X>0</X><Y>-0.32282257080078125</Y><Z>-7.1054265105680546e-15</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[HatAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Vector3Value" referent="113"><Properties><Vector3 name="Value"><X>-1.6609318053578222e-23</X><Y>-0.32282257080078125</Y><Z>-7.105427357601002e-15</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[OriginalPosition]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="ParticleEmitter" referent="114"><Properties><float name="Drag">1</float><NumberRange name="Lifetime">2 3</NumberRange><float name="LightEmission">1</float><bool name="LockedToPart">true</bool><float name="Rate">3</float><NumberRange name="RotSpeed">10 100</NumberRange><NumberRange name="Rotation">0 360</NumberRange><NumberSequence name="Size">0 0 0 0.7221584320068359 0.37499964237213135 0 0.8848580718040466 2.375 0 1 9.125 0 </NumberSequence><NumberRange name="Speed">0.10000000149011612 1</NumberRange><Vector2 name="SpreadAngle"><X>360</X><Y>360</Y></Vector2><Content name="Texture"><url><![CDATA[rbxassetid://1539296487]]></url></Content><NumberSequence name="Transparency">0 1 0 0.05914826691150665 0.4937499761581421 0 0.12229299545288086 0.03125 0 0.20741325616836548 0 0 0.26498422026634216 0 0 0.31388014554977417 0 0 0.3509463667869568 0.47499996423721313 0 0.3856467008590698 0.7124999761581421 0 0.43533122539520264 0.949999988079071 0 0.4756188988685608 1 0 1 1 0 </NumberSequence><float name="ZOffset">1</float><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[a]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Vector3Value" referent="115"><Properties><Vector3 name="Value"><X>1</X><Y>1</Y><Z>1</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[OriginalSize]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Weld" referent="116"><Properties><CoordinateFrame name="C0"><X>0</X><Y>-0.32282257080078125</Y><Z>-7.1054265105680546e-15</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><CoordinateFrame name="C1"><X>0</X><Y>0.6000000238418579</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Ref name="Part0">109</Ref><Ref name="Part1">1</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[AccessoryWeld]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item><Item class="Accessory" referent="117"><Properties><token name="AccessoryType">1</token><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Headphones]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Part" referent="118"><Properties><token name="shape">1</token><token name="formFactorRaw">1</token><CoordinateFrame name="CFrame"><X>13.49244213104248</X><Y>4.688612937927246</Y><Z>4.9524712562561035</Z><R00>-0.8538290858268738</R00><R01>-0.006054905243217945</R01><R02>0.5205183625221252</R02><R10>-0.007084091659635305</R10><R11>0.9999749064445496</R11><R12>0.000011802751032519154</R12><R20>-0.5205053091049194</R20><R21>-0.0036773120518773794</R21><R22>-0.8538505434989929</R22></CoordinateFrame><bool name="CanCollide">false</bool><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4288914085</Color3uint8><string name="MaterialVariantSerialized"></string><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>0.7288248538970947</X><Y>1.0029621124267578</Y><Z>1.5336920022964478</Z></Vector3><BinaryString name="AttributesSerialize">AQAAABIAAABSQlhSZWZpbmVtZW50U2NhbGURAACAPwAAgD8AAIA/</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Handle]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="SpecialMesh" referent="119"><Properties><token name="MeshType">5</token><Content name="MeshId"><url><![CDATA[rbxassetid://16468027073]]></url></Content><Content name="TextureId"><url><![CDATA[rbxassetid://16479848802]]></url></Content><Vector3 name="Scale"><X>1.0198919773101807</X><Y>1.0198919773101807</Y><Z>1.0198919773101807</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="StringValue" referent="120"><Properties><string name="Value"><![CDATA[Classic]]></string><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[AvatarPartScaleType]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="121"><Properties><CoordinateFrame name="CFrame"><X>4.844916954348026e-17</X><Y>0.3956174850463867</Y><Z>-4.844916954348026e-17</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>-0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[HatAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Vector3Value" referent="122"><Properties><Vector3 name="Value"><X>4.844916954348026e-17</X><Y>0.3956174850463867</Y><Z>-4.844916954348026e-17</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[OriginalPosition]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Vector3Value" referent="123"><Properties><Vector3 name="Value"><X>0.7288248538970947</X><Y>1.0029621124267578</Y><Z>1.5336920022964478</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[OriginalSize]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Weld" referent="124"><Properties><CoordinateFrame name="C0"><X>4.844916954348026e-17</X><Y>0.3956174850463867</Y><Z>-4.844916954348026e-17</Z><R00>0</R00><R01>0</R01><R02>1</R02><R10>0</R10><R11>1</R11><R12>-0</R12><R20>-1</R20><R21>0</R21><R22>0</R22></CoordinateFrame><CoordinateFrame name="C1"><X>0</X><Y>0.6000000238418579</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Ref name="Part0">118</Ref><Ref name="Part1">1</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[AccessoryWeld]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item><Item class="Accessory" referent="125"><Properties><token name="AccessoryType">8</token><CoordinateFrame name="AttachmentPoint"><X>0</X><Y>-0.9999995231628418</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[MeshPartAccessory]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Part" referent="126"><Properties><token name="shape">1</token><token name="formFactorRaw">1</token><token name="BottomSurface">0</token><CoordinateFrame name="CFrame"><X>14.015828132629395</X><Y>2.384247303009033</Y><Z>4.10036039352417</Z><R00>-0.5191203355789185</R00><R01>0</R01><R02>-0.8547011613845825</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0.8547011613845825</R20><R21>0</R21><R22>-0.5191203355789185</R22></CoordinateFrame><bool name="CanCollide">false</bool><string name="CollisionGroup"><![CDATA[Characters]]></string><int name="CollisionGroupId">1</int><Color3uint8 name="Color3uint8">4288914085</Color3uint8><bool name="Locked">true</bool><string name="MaterialVariantSerialized"></string><token name="TopSurface">0</token><Vector3 name="Velocity"><X>0</X><Y>0.000006553290404553991</Y><Z>0</Z></Vector3><Vector3 name="size"><X>0.009999999776482582</X><Y>0.009999999776482582</Y><Z>0.009999999776482582</Z></Vector3><BinaryString name="AttributesSerialize">AQAAABIAAABSQlhSZWZpbmVtZW50U2NhbGURAACAPwAAgD8AAIA/</BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[Handle]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="SpecialMesh" referent="127"><Properties><token name="MeshType">5</token><Content name="MeshId"><url><![CDATA[rbxassetid://11777817878]]></url></Content><Content name="TextureId"><url><![CDATA[http://www.roblox.com/asset/?id=11777361059]]></url></Content><Vector3 name="Scale"><X>0.009999999776482582</X><Y>0.009999999776482582</Y><Z>0.009999999776482582</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[SpecialMesh]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="StringValue" referent="128"><Properties><string name="Value"><![CDATA[Classic]]></string><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[AvatarPartScaleType]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Attachment" referent="129"><Properties><CoordinateFrame name="CFrame"><X>1</X><Y>-0.3999999761581421</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[WaistCenterAttachment]]></string><BinaryString name="Tags"></BinaryString></Properties><Item class="Vector3Value" referent="130"><Properties><Vector3 name="Value"><X>1</X><Y>-0.4000000059604645</Y><Z>0</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[OriginalPosition]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item><Item class="Vector3Value" referent="131"><Properties><Vector3 name="Value"><X>0.009999999776482582</X><Y>0.009999999776482582</Y><Z>0.009999999776482582</Z></Vector3><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[OriginalSize]]></string><BinaryString name="Tags"></BinaryString></Properties></Item><Item class="Weld" referent="132"><Properties><CoordinateFrame name="C0"><X>1</X><Y>-0.3999999761581421</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><CoordinateFrame name="C1"><X>0</X><Y>-1</Y><Z>0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame><Ref name="Part0">126</Ref><Ref name="Part1">75</Ref><BinaryString name="AttributesSerialize"></BinaryString><bool name="DefinesCapabilities">false</bool><string name="Name"><![CDATA[AccessoryWeld]]></string><BinaryString name="Tags"></BinaryString></Properties></Item></Item></Item></Item><Item class="Script" referent="133"><Properties><string name="Name"><![CDATA[README]]></string><ProtectedString name="Source"><![CDATA[--[[
+		Thank you for using UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw.
+
+		If you didn't save in Binary (rbxl) - it's recommended to save the game right away to take advantage of the binary format & to preserve values of certain properties if you used IgnoreDefaultProperties setting (as they might change in the future).
+		You can do that by going to FILE -> Save to File As -> Make sure File Name ends with .rbxl -> Save
+
+		ServerStorage, ServerScriptService and Server Scripts are IMPOSSIBLE to save because of FilteringEnabled.
+
+		If your player cannot spawn into the game, please move the scripts in StarterPlayer somewhere else or delete them. Then run `game:GetService("Players").CharacterAutoLoads = true`.
+		And use "Play Here" to start game instead of "Play" to spawn your Character where your Camera currently is.
+
+		If the chat system does not work, please use the explorer and delete everything inside the TextChatService/Chat service(s). 
+		Or run `game:GetService("Chat"):ClearAllChildren() game:GetService("TextChatService"):ClearAllChildren()`
+				
+		If Union and MeshPart collisions don't work, run the script below in the Studio Command Bar:
+				
+				
+		local C = game:GetService("CoreGui")
+		local D = Enum.CollisionFidelity.Default
+				
+		for _, v in game:GetDescendants() do
+			if v:IsA("TriangleMeshPart") and not v:IsDescendantOf(C) then
+				v.CollisionFidelity = D
+			end
+		end
+		print("Done")
+				
+		If you can't move the Camera, run this script in the Studio Command Bar:
+			
+		workspace.CurrentCamera.CameraType = Enum.CameraType.Fixed
+		
+		Or Destroy the Camera.
+
+		This file was generated with the following settings:
+		{"SaveBytecode":false,"Callback":false,"ShowStatus":true,"IgnoreDefaultPlayerScripts":true,"NilInstancesFixes":{"BaseWrap":null,"Animator":null,"Attachment":null,"PackageLink":null,"AdPortal":null},"IgnoreList":["CoreGui","CorePackages"],"__DEBUG_MODE":false,"KillAllScripts":true,"DecompileJobless":false,"IgnoreNotArchivable":true,"RemovePlayerCharacters":false,"Object":null,"DecompileIgnore":["TextChatService",null,null,null,null,null,null],"IgnoreSpecialProperties":true,"TreatUnionsAsParts":false,"IsModel":false,"NilInstances":false,"ExtraInstances":[],"noscripts":false,"ReadMe":true,"OptionsAliases":{"SavePlayers":"IsolatePlayers","IgnoreArchivable":"IgnoreNotArchivable","DecompileTimeout":"timeout","SaveNonCreatable":"SaveNotCreatable","InstancesBlacklist":"IgnoreList","IsolatePlayerGui":"IsolateLocalPlayer","FileName":"FilePath","IgnoreDefaultProps":"IgnoreDefaultProperties"},"scriptcache":true,"SharedStringOverwrite":false,"AlternativeWritefile":true,"mode":"optimized","SaveCacheInterval":56320,"IgnoreSharedStrings":true,"IsolatePlayers":false,"NotCreatableFixes":["","AdvancedDragger","AnimationTrack","Dragger","Player","PlayerGui","PlayerMouse","PlayerMouse","PlayerScripts","ScreenshotHud","StudioData","TextChatMessage","TextSource","TouchTransmitter","Translator"],"timeout":10,"IgnoreDefaultProperties":true,"Anonymous":false,"IsolateStarterPlayer":false,"IsolateLocalPlayerCharacter":false,"IgnorePropertiesOfNotScriptsOnScriptsMode":false,"AvoidFileOverwrite":true,"SaveNotCreatable":false,"IsolateLocalPlayer":false,"FilePath":"Place_7041939546_ironyirey_1775120899.txt","AntiIdle":true,"ShutdownWhenDone":false,"SafeMode":true,"IgnoreProperties":[]}
+
+		Elapsed time: 0.16782153802341782 Date (UTC): 2 April 2026 09:08:42 PlaceId: 7041939546 PlaceVersion: 5898 Client Version: 2.711.876 Executor: Delta 1.1.711.876 arm64
+]]]]></ProtectedString></Properties></Item></roblox><!-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw -->
